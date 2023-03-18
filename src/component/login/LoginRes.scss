@@ -1,0 +1,27 @@
+@media screen and (max-width: 905px){
+    .container{
+        height: 90vh;
+        .loginbox{
+            .loginform{
+            input {
+                width: 80%;
+              }
+              .login-user{
+                position: absolute;
+                top: 36%;
+                font-size: 1.5rem;
+                left: 1.3rem;
+              }
+              .login-password{
+                position: absolute;
+                top: 52%;
+                font-size: 1.5rem;
+                left: 1.3rem;
+              }
+        }}
+        
+        .btn{
+            width: 88%;
+        }
+    }
+}

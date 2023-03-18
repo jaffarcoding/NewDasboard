@@ -1,0 +1,197 @@
+.client-side{
+    height: 100vh;
+    width: 86.1%;
+    position: relative;
+    left: 13.9%;
+    background-color: rgb(236, 242, 247);
+    >h3{
+        padding: 1rem;
+    }
+    >p{
+        position: absolute;
+        top: 2.8rem;
+        padding: 0 0 0 1rem;
+        .second{
+            font-weight: 100;
+            color: rgb(152, 151, 151);
+        }
+    }
+    .bell{
+        position: absolute;
+        left: 96%;
+        top: 2rem;
+    }
+    .search-engine{
+        width: 97%;
+        // border-radius: 5px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 3.8rem;
+        margin: 1.7rem 0 0 1rem;
+        background-color: white;
+        .search-view{
+            position: absolute;
+            left: 2.7rem;
+            top: 6.6rem;
+            font-weight: 100;
+        }
+        >input{
+            width: 16%;
+            display: flex;
+            margin-top: 1.1rem;
+            position: absolute;  
+            margin-left: 1.1rem; 
+            outline: none;
+            text-decoration: none;
+            list-style: none;
+            border: 1px solid rgb(135, 135, 135);
+            background: none;
+            border-radius: 25px;
+            
+            padding: 0.3rem 0 0.3rem 2rem;
+        }
+        .coloumns{
+            position: relative;
+            left: 80%;
+            top: 0.8rem;
+            border: 1px solid rgb(147, 144, 144);
+            width: 9%;
+            >p{
+                color: rgb(147, 145, 145);
+                font-weight: 100;
+                padding-left: 12px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            .down{
+                padding-left: 75%;
+                position: absolute;
+                bottom: 1rem;
+                top: 0.7rem;
+                font-weight: 100;
+            }
+        }
+        .exports{
+            position: relative;
+            left: 90%;
+            bottom: 1.7rem;
+            border: none;
+            border-radius: 10px;
+            width: 9%;
+            height: 2.7rem;
+            background-color: rgb(202, 229, 252);
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            padding-left: 1.5rem;
+            padding-bottom: 0.2rem;
+            color: rgb(21, 69, 113);
+            
+        }
+        .export{
+                position: relative;
+                left: 82%;
+                bottom: 1.4rem;
+                color: rgb(21, 69, 113);
+                font-size: 1.4rem;
+            }
+    }
+}
+.wrap-title{
+    height: 2rem;
+    display: grid;
+    align-items: center;
+    margin-left: 15px;
+    grid-template-columns:  42fr 48fr 30fr 35fr 23fr 20fr 22fr 28fr 10fr 10fr;
+    background-color:  rgb(236, 242, 247);
+    position: absolute;
+    top: 9rem;
+    left: 15%;
+    width: 88.4rem;
+    :nth-child(1n+1){
+        >h4{
+            font-weight: 100;
+        }
+    }
+    // background-color: aqua;
+    // margin: 0 auto;
+    // padding: 1.2rem;
+}
+.table{
+    position: absolute;
+    top: 11rem;
+    left: 15%;
+    height: 60vh;
+    width: 86rem;
+    background-color: white;
+    margin: 0 auto;
+    padding: 1.2rem;
+     .wrap-item{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 40fr 47fr 30fr 35fr 23fr 20fr 22fr 28fr 10fr ;
+        :nth-child(1n+1){
+            .firstH{
+                padding-top: 1px;
+            }
+            >h4{
+                padding-top: 1.5rem;
+            }
+        }
+    }
+    .pagination{
+        display: flex;
+        position: absolute;
+        top: 29.5rem;
+        left: 1rem;
+        >li{
+            list-style: none;
+            text-decoration: none;
+            margin-left: 1rem;
+            border-radius: 5px;
+            height: 1.7rem;
+            width: 1.7rem;
+            transition: all 0.5s;
+            &:hover{
+                color: white;
+                background-color: rgb(7, 7, 152) ;
+            }
+            >a{
+               display: flex;
+               justify-content: center;
+               padding-top: 4px;
+            }
+        }
+    }
+    .previous{
+        position: absolute;
+        top: 30rem;
+        left: 75rem;
+        width: 6%;
+
+        >p{
+            margin-left: 1.6rem;
+            color: rgb(181, 175, 175);
+            font-weight: 300;
+        }
+        .previous-P{
+        padding-left: 1px;
+    position: absolute;
+    top: 0;
+        }       
+    }
+    .next{
+        position: absolute;
+        top: 29.5rem;
+        left: 82rem;
+        width: 5%;
+        background-color: rgb(226, 239, 250);
+        height: 2.4rem;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        .next-p{
+            padding-left: 0.7rem;
+        }
+    }
+}

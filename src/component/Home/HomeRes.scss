@@ -1,0 +1,28 @@
+@media  screen and (max-width: 1500px) {
+    .sidebar{
+        display: none;
+    }
+    .bar{
+        display: block;
+        position: fixed;
+        top: 5rem;
+        left: 5rem;
+        font-size: 5rem;
+        z-index: -1;
+    }
+    .mobilebar{
+        display: block;
+        position: relative;
+        height: 105vh;
+        width: 50%;
+        background-color: aqua;
+
+    }
+    .top-sidebar{
+        margin-top: 3rem;
+    }
+    .btns{
+        display: block;
+    }
+    
+}
